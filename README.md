@@ -1,8 +1,13 @@
-# React + Vite
+# Blog-Project-React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- GET post-categories
+`https://basic-blog.teamrabbil.com/api/post-categories`
 
-Currently, two official plugins are available:
+- GET post-list
+`https://basic-blog.teamrabbil.com/api/post-list/2`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- GET post-newest
+`https://basic-blog.teamrabbil.com/api/post-newest`
+
+- GET post-details
+`https://basic-blog.teamrabbil.com/api/post-details/1`
