@@ -1,14 +1,14 @@
-import React from "react";
+
+
+import BlogList from "../Components/BlogList";
 import Layout from "../Layout/Layout";
+
 
 
 const HomePage = () => {
     return (
         <Layout>
-            <h1>This is Home Page</h1>
-            <h1>This is Home Page</h1>
-            <h1>This is Home Page</h1>
-            <h1>This is Home Page</h1>
+            <BlogList />
         </Layout>
     );
 };
